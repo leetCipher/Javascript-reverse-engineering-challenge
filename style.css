@@ -1,0 +1,62 @@
+.container {
+	display: block;
+	margin-top: 135px;
+	text-align: center;
+}
+
+.container input {
+	width: 59%;
+	font-family: Arial;
+	padding: 15px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.container h1 {
+	font-family: Arial;
+	font-size: 5rem;
+	margin-bottom: 25px;
+}
+
+.container button {
+	display: block;
+	margin: 15px auto;
+	padding: 10px;
+	width: 62%;
+	font-size: 35px;
+	font-family: Arial;
+	border: 3px solid #000;
+	background-color: #FFF;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.container button:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+.container .flag_check {
+	width: 26%;
+	display: inline-block;
+	margin-top: 25px;
+	padding: 25px;
+	font-size: 25px;
+	font-family: Arial;
+	opacity: 0.4;
+	color: white;
+	transition: 0.3s ease-in-out;
+}
+
+.container .correct_flag {
+	margin-right: 25px;
+	background-color: #2DEC2D;
+}
+
+.container .wrong_flag {
+	background-color: #EA7B7B;
+}
+
+.container .flag_status {
+	opacity: 1 !important;
+}
